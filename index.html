@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
     <link href="./resources/css/style.css" rel="stylesheet" />
     <!-- Title -->
     <title>NETPILIX</title>
@@ -20,15 +21,18 @@
     <!-- Header Section -->
     <header class="navbar">
         <div class="container flex">
+            <!-- LOGO -->
             <h1 class="logo">.NETPILIX.</h1>
-            <nav class="mainMenu">
-                <ul class="flex">
+            <!-- Main Menu -->
+            <nav>
+                <ul class="menu flex">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#movie">Movies</a></li>
                     <li><a href="#newMovie">Recently</a></li>
                     <li><a href="#us">Our team</a></li>
                 </ul>
             </nav>
+            <!-- Socials -->
             <div class="socialIcon flex">
                 <a target="_blank" href="https://instagram.com">
                     <img title="Instagram" src="https://img.icons8.com/wired/64/ffffff/instagram-new--v1.png" />
@@ -42,15 +46,17 @@
     <!-- Body Section -->
     <main>
         <!-- Hero Section -->
-        <section class="hero">
+        <section class="container hero">
             <div class="container exclusive flex">
                 <img src="./resources/images/movies-poster-1.jpeg" />
                 <img src="./resources/images/movies-poster-2.jpeg" />
                 <img src="./resources/images/movies-poster-3.jpeg" />
                 <img src="./resources/images/movies-poster-4.jpeg" />
+                <img src="./resources/images/movies-poster-5.jpeg" />
+                <img src="./resources/images/movies-poster-6.jpeg" />
+
             </div>
-            <div class="overlay flex"><a id="membership" href="#sign-up">become a member</a></div>
-            
+            <div class="container overlay flex"><a id="membership" href="#sign-up">become a member</a></div>     
         </section>
         <!-- New Movies -->
         <section class="movies">
@@ -231,7 +237,7 @@
             </div>
         </section>
     </main>
-    <footer id="us" class="container">
+    <footer id="us" class="flex">
         <p>.NETPILIX. All Rights Reserved</p>
     </footer>
 </body>
